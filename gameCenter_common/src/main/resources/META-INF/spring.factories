@@ -1,0 +1,6 @@
+# Auto Configure
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.niit.gamecenter_common.config.SwaggerConfiguration,\
+com.niit.gamecenter_common.config.Swagger2Configuration,\
+com.niit.gamecenter_common.config.AliyunSafeConfiguration,\
+com.niit.gamecenter_common.fastdfs.FdfsConfiguration

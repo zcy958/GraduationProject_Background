@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: gcgateway
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      server-addr: 150.158.33.26:8848
+      config:
+        file-extension: yaml
